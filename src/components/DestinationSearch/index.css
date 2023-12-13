@@ -1,0 +1,40 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.heading {
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #252627;
+}
+
+.input-conatiner {
+  background-color: #f1f5f9;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  font-size: 25px;
+}
+
+.image-icon {
+  height: 30px;
+  width: 30px;
+}
